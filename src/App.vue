@@ -1,5 +1,5 @@
 <script setup>
-import { /* RouterLink, */ RouterView } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -10,6 +10,9 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="Weapon Lookup" />
     </div>
+
+    <RouterLink to="/">Home</RouterLink>
+    
   </header>
 
   <RouterView />
